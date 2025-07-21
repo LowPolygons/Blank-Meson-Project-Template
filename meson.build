@@ -2,9 +2,10 @@ project('PROJECT NAME', 'cpp',
   default_options: ['cpp_std=c++23']
 )
 
-inc_dirs = ['src']
+#inc_dirs = ['src']
+#
 # Example project with an external dependency
-# inc_dirs = ['src', 'external', 'external/eigen-3.4.0']
+inc_dirs = ['src', 'external', 'external/example-lib']
 
 all_sources = files(
 #'./src/...'
